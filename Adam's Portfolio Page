@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> </title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    
+    <nav id="navbar">
+        <ul>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+        </ul>
+    </nav>
+
+    <header id="welcome-section">
+      <h1>Welcome to My Portfolio</h1>
+    </header>
+
+    <main>
+      <section id="projects">
+        <label>My Projects</label>
+        <h4 class="project-tile"><a href="youtube.com"> P1</a></h4>
+      </section>
+
+      <section id="resume">
+        <label>My Resume</label>
+        <h4 class=""><a href="youtube.com">Resume</a></h4>
+      </section>
+
+      <section id="contacts">
+        <label>My Contacts</label>
+        <h4 class=""><a id="profile-link" target="_blank" href="https://www.freecodecamp.org/Adam-Stancil">Freecodecamp Profile</a></h4>
+      </section>
+
+
+    </main>
+  </body>
+</html>

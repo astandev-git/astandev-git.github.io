@@ -139,10 +139,6 @@ ul {
   font-size: 18px;
 }
 
-#lesson-list, #project-list {
-
-}
-
 #page-links:hover {
   background-color: lightblue;
   color: #1b1b32;
@@ -153,8 +149,6 @@ ul {
   font-size: 12px;
   display:none;
 }
-
-
 
 .social-icons {
   display: grid;

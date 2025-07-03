@@ -143,7 +143,7 @@ ul li ul {
   display: none;
 }
 
-ul li ul.active {
+ul li ul:active {
   display: block;
 }
 

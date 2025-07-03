@@ -139,6 +139,14 @@ ul {
   font-size: 18px;
 }
 
+ul li ul {
+  display: none;
+}
+
+ul li ul.active {
+  display: block;
+}
+
 #page-links:hover {
   background-color: lightblue;
   color: #1b1b32;

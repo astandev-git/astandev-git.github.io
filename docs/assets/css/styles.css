@@ -77,7 +77,7 @@ footer > div {
 }
 
 section {
-  margin: 10px 0 0 10px;
+  margin: 10px 0;
   max-width: auto;
   display:grid;
   grid-auto-flow: column;

@@ -118,10 +118,10 @@ nav > ul {
 
 nav > ul > li {
   color: #dfdfe2;
-  margin: 0.8rem 0;
+  margin: 0.2rem 0;
   padding: 0.2rem;
   display: flex;
-   font-size: 8px;
+  font-size: 18px;
 }
 
 nav > ul > li:hover {
@@ -153,11 +153,6 @@ ul li ul:active {
   background-color: lightblue;
   color: #1b1b32;
   cursor: pointer;
-}
-
-.project > a {
-  font-size: 12px;
-  display:none;
 }
 
 .social-icons {

@@ -95,7 +95,7 @@ footer {
   display: grid;
   grid-auto-flow: column;
   font-style: normal;
-  font-size: clamp(1.0rem, 2.5vw, 2.0rem);
+  font-size: clamp(0.8rem, 2.5vw, 2.0rem);
   overflow: hidden;
 }
 

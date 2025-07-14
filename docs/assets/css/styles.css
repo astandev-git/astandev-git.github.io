@@ -197,7 +197,7 @@ footer .fab {
 #my-name {
   /*max-inline-size: 100%;
   font-size: 4.375rem;*/
-    height: fit-content;
+  height: fit-content;
   font-size: 4vw;
 }
 

@@ -193,7 +193,7 @@ ul {
   grid-auto-columns: 1fr;
   justify-items:left;
   height: fit-content;
-  font-size: clamp(1.1rem, 3vw, 2.0rem);
+  font-size: clamp(1.0rem, 3vw, 2.0rem);
 }
 
 footer .fab {
@@ -210,7 +210,7 @@ footer .fab {
 #page-links {
   margin-right: 2px;
   height: fit-content;
-  font-size: clamp(1.15rem, 3.1vw, 2.1rem);
+  font-size: clamp(1.05rem, 3.1vw, 2.1rem);
 }
 
 .gradient-text {

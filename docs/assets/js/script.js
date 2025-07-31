@@ -53,11 +53,38 @@ inputform.addEventListener('keydown', function(event) {
 
 
 
-/**/ 
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~TEST AREA~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */ 
 
 
 
-/*
+function showList(list) {
+  document.getElementById("list").classList.toggle("show");
+}
+
+
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~OLD UNUSED CODE~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<li id="song-${song.id}" class="playlist-song">
+      <button class="playlist-song-info" onclick="playSong(${song.id})">
+list.classList.remove("
+
+
+
+document.getElementById("myBtn").onclick = function() {myFunction()};
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+      
+
+
+const listBtn = document.querySelectorAll(.listBtn);
+listBtn.addEventListener("click",()=>{
+});
+
+
+
 
 function download(filename, text) {
   var pom = document.createElement('a');

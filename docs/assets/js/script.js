@@ -1,15 +1,3 @@
-/**/
-
-/**/
-function show() {
-  var x = document.getElementById("test2");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
-
 /**/ 
 function checkPersonal() {
   let inputPwd = document.getElementById("personalInput").value;
@@ -32,31 +20,18 @@ function checkTesting() {
   }
 }
 
-// Get the textbox element
-const form = document.getElementById('myForm');
-const inputform = document.getElementById('inputform');
-
-// Add an event listener for the 'keydown' event
-inputform.addEventListener('keydown', function(event) {
- 
-  // Check if the ENTER key (key code 13) is pressed
-  if (event.key === 'Enter') {
- 
-  // Prevent the default action (e.g., new line in a textarea)
-  event.preventDefault();
-
-  // Submit the form
-  document.getElementById('myForm').submit();
+/**/
+function show() {
+  var x = document.getElementById("test2");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
   }
-
-});
-
+}
 
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~TEST AREA~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */ 
-
-
-
 function showList(list) {
   document.getElementById(${list}).classList.toggle("show");
 }
@@ -75,27 +50,28 @@ function showList3(list) {
 }
 
 
-
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~OLD UNUSED CODE~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 <li id="song-${song.id}" class="playlist-song">
       <button class="playlist-song-info" onclick="playSong(${song.id})">
 list.classList.remove("
 
+---
 
-
+// Get the button, and when the user clicks on it, execute myFunction
 document.getElementById("myBtn").onclick = function() {myFunction()};
+
+// myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content 
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
       
-
+---
 
 const listBtn = document.querySelectorAll(.listBtn);
 listBtn.addEventListener("click",()=>{
 });
 
-
-
+---
 
 function download(filename, text) {
   var pom = document.createElement('a');
@@ -121,10 +97,8 @@ function addTextTXT()
 
 ---
 
-document.getElementById("container")
-        .style.display = "block";
-          document.getElementById("pwd")
-            .style.display = "none";
+document.getElementById("container").style.display = "block";
+document.getElementById("pwd").style.display = "none";
 
 ---
 
@@ -143,7 +117,7 @@ buttons.forEach(button => {
     // buttons.forEach(button => button.classList.remove('active'));
 
     // Add 'active' class to the clicked button
-    //button.classList.add('active');
+    // button.classList.add('active');
     button.classList.toggle('active');
   });
 });
@@ -162,14 +136,23 @@ $('ul li').click( function () {
 
 ---
 
-// Get the button, and when the user clicks on it, execute myFunction
-document.getElementById("myBtn").onclick = function() {myFunction()};
+// Get the textbox element
+const form = document.getElementById('myForm');
+const inputform = document.getElementById('inputform');
 
-// myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content 
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
+// Add an event listener for the 'keydown' event
+inputform.addEventListener('keydown', function(event) {
+ 
+  // Check if the ENTER key (key code 13) is pressed
+  if (event.key === 'Enter') {
+ 
+  // Prevent the default action (e.g., new line in a textarea)
+  event.preventDefault();
 
-  */
+  // Submit the form
+  document.getElementById('myForm').submit();
+  }
 
-
+});  
+  
+*/

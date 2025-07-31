@@ -1,3 +1,13 @@
+/**/
+function show() {
+  var x = document.getElementById("test2");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
 /**/ 
 function checkPersonal() {
   let inputPwd = document.getElementById("personalInput").value;
@@ -17,16 +27,6 @@ function checkTesting() {
     window.open("./assets/testing.html", "_blank", rel="noopener noreferrer")
   } else {
     alert("Incorrect password!");
-  }
-}
-
-/**/
-function show() {
-  var x = document.getElementById("test2");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
   }
 }
 

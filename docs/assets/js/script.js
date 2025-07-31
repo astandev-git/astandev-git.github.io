@@ -1,3 +1,22 @@
+// Get the textbox element
+const form = document.getElementById('myForm');
+const inputform = document.getElementById('inputform');
+
+// Add an event listener for the 'keydown' event
+inputform.addEventListener('keydown', function(event) {
+ 
+  // Check if the ENTER key (key code 13) is pressed
+  if (event.key === 'Enter') {
+ 
+  // Prevent the default action (e.g., new line in a textarea)
+  event.preventDefault();
+
+  // Submit the form
+  document.getElementById('myForm').submit();
+  }
+
+});  
+
 /**/
 function show() {
   var x = document.getElementById("test2");
@@ -142,23 +161,6 @@ $('ul li').click( function () {
 
 ---
 
-// Get the textbox element
-const form = document.getElementById('myForm');
-const inputform = document.getElementById('inputform');
 
-// Add an event listener for the 'keydown' event
-inputform.addEventListener('keydown', function(event) {
- 
-  // Check if the ENTER key (key code 13) is pressed
-  if (event.key === 'Enter') {
- 
-  // Prevent the default action (e.g., new line in a textarea)
-  event.preventDefault();
-
-  // Submit the form
-  document.getElementById('myForm').submit();
-  }
-
-});  
   
 */

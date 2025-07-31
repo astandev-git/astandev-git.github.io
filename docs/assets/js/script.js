@@ -40,6 +40,10 @@ function showList2(list) {
   document.getElementById(list).classList.toggle("show");
 }
 
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~OLD UNUSED CODE~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 function showList3(list) {
   var x = document.getElementById(list);
   if (x.style.display === "none") {
@@ -50,7 +54,9 @@ function showList3(list) {
 }
 
 
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~OLD UNUSED CODE~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
 <li id="song-${song.id}" class="playlist-song">
       <button class="playlist-song-info" onclick="playSong(${song.id})">
 list.classList.remove("

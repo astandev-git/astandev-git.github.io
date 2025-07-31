@@ -58,10 +58,21 @@ inputform.addEventListener('keydown', function(event) {
 
 
 function showList(list) {
+  document.getElementById(${list}).classList.toggle("show");
+}
+
+function showList2(list) {
   document.getElementById(list).classList.toggle("show");
 }
 
-
+function showList3(list) {
+  var x = document.getElementById(list);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
 
 
 

@@ -58,7 +58,7 @@ inputform.addEventListener('keydown', function(event) {
 
 
 function showList(list) {
-  document.getElementById("list").classList.toggle("show");
+  document.getElementById(list).classList.toggle("show");
 }
 
 

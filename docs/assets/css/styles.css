@@ -151,6 +151,10 @@ main li {
   margin-bottom: 2px;
 }
 
+.temp {
+  display:none;
+}
+
 label {
   font-size: 1.5rem;
   color: darkred;

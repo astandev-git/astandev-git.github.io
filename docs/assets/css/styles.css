@@ -151,7 +151,11 @@ main li {
   margin-bottom: 2px;
 }
 
-.temp1 .test2{
+.temp1 {
+  display:none;
+}
+
+.test2 {
   display:none;
 }
 

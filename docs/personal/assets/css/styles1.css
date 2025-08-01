@@ -172,6 +172,10 @@ b {
   color: red;
 }
 
+ul > ul > b {
+  font-size:10px;
+}
+
 nav > ul {
   display: flex;
   justify-content: space-evenly;

@@ -173,6 +173,10 @@ b {
 }
 
 ul b {
+  font-size:12px;
+}
+
+ul li li {
   font-size:10px;
 }
 

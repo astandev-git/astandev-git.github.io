@@ -172,7 +172,7 @@ b {
   color: red;
 }
 
-ul > ul > b {
+ul ul b {
   font-size:10px;
 }
 

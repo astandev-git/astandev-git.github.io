@@ -143,6 +143,24 @@ section > * {
   margin-right: 10px;
 }
 
+b {
+  text-decoration-line: underline;
+  color: red;
+}
+
+ul b {
+  font-size: 12px;
+  color: royalblue; 
+}
+
+ul li {
+  font-size: 10px;
+}
+
+ul li li {
+  font-size: 10px;
+}
+
 main a {
   font-size: 13px;
 }
@@ -165,20 +183,6 @@ section label {
   min-width: 100px;
   font-size: 1.5rem;
   color: darkred;
-}
-
-b {
-  text-decoration-line: underline;
-  color: red;
-}
-
-ul b {
-  font-size: 12px;
-  color: royalblue; 
-}
-
-ul li li {
-  font-size: 10px;
 }
 
 nav > ul {

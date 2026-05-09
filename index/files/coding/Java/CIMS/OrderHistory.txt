@@ -1,0 +1,15 @@
+1
+Plain 1/4",Plain Cement,Cement w/ SilicaFume,Plain 1/2",
+1,3,2,4,
+2
+Plain 1",Cement Sand (no aggregate),Cement w/ FlyAsh,Plain 3/4",
+3,2,1,1,
+3
+Plain 3/4",Plain Cement,Cement w/ Plasticizer,Plain 1/2",
+4,1,1,3,
+4
+Plain 1",Plain Cement,Plain 1/4",Plain 1/2",
+1,1,1,1,
+5
+Plain 1",Plain 3/4",
+4,1,

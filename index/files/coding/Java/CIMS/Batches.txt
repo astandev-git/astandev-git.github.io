@@ -1,0 +1,30 @@
+Plain 1/4"
+Water Sand Cement Rock_1/4
+200 100 100 200
+Plain 1/2"
+Water Sand Cement Rock_1/2
+200 100 100 200
+Plain 3/4"
+Water Sand Cement Rock_3/4
+200 100 100 200
+Plain 1"
+Water Sand Cement Rock_1
+200 100 100 200
+Plain Cement
+Water Cement
+100 200
+Cement Sand (no aggregate)
+Water Sand Cement
+100 100 100
+Cement w/ FlyAsh
+Water Cement FlyAsh
+100 200 20
+Cement w/ SilicaFume
+Water Cement SilicaFume
+100 200 20
+Cement w/ Plasticizer
+Water Cement Plasticizer
+100 200 20
+All x1 (test)
+Water Sand Cement Rock_1/4 Rock_1/2 Rock_3/4 Rock_1 FlyAsh SilicaFume Plasticizer
+1 1 1 1 1 1 1 1 1 1

@@ -1,0 +1,97 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>
+      Build a Palindrome Checker
+    </title>
+  </head>
+
+  <body>
+    <main>
+    <input type="text" id="text-input" placeholder="Input here">Input</input>
+    </br>
+    <button id="check-btn">Submit</button>
+
+    <div id="result"> </div>
+
+    
+
+
+
+  
+    </main>
+  <script src="script.js"></script>
+  </body>
+</html>
+
+** end of index.html **
+
+** start of script.js **
+
+const textInput = document.getElementById("text-input");
+const checkButton = document.getElementById("check-btn");
+const result = document.getElementById("result");
+
+checkButton.addEventListener('click', () => {
+    const inputValue = textInput.value;
+
+    if (inputValue === '') {
+        alert('Please input a value');
+        return;
+    }
+
+    const cleanedString = inputValue.toLowerCase().replace(/[^a-z0-9]/g, '');
+    const reversedString = cleanedString.split('').reverse().join('');
+
+    if (cleanedString === reversedString) {
+        result.textContent = `${inputValue} is a palindrome`;
+    } else {
+        result.textContent = `${inputValue} is not a palindrome`;
+    }
+});
+
+
+
+
+
+
+//const textInput1 = document.querySelector("#text-input");
+//const result = document.querySelector("#result");
+//const textInput2 = document.getElementById("text-input");
+
+//let userInput1 = textInput1.value;
+//let userInput2 = textInput2.value;
+
+//result.innerText = `x ${userInput1}  y ${userInput2} z ${textInput1.value} a ${textInput2.value}`;
+//result.innerText = "test";
+
+/*const removeNonAlphanumeric = (inputString) => {
+  // The regular expression [^a-zA-Z0-9] matches any character that is NOT an uppercase letter (A-Z), a lowercase letter (a-z), or a digit (0-9). The 'g' flag ensures that ALL occurrences are replaced, not just the first.
+
+  return inputString.replace(/[^a-zA-Z0-9]/g, ''); 
+}*/
+
+//checkButton.addEventListener("click",checkInput(userInput1));
+
+
+** end of script.js **
+
+** start of styles.css **
+
+
+
+** end of styles.css **
+
